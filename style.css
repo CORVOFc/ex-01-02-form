@@ -1,0 +1,28 @@
+body {
+    background-color: #4B0082; /* Indigo (um roxo escuro) */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Garante que o body tenha no mínimo 100% da altura da tela */
+    margin: 0; /* Remove margem padrão do body */
+}
+
+.principal {
+    background-color: #442d59; /* Blue Violet (um roxo mais claro) */
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px; /* Largura do seu container principal */
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura total */
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white; /* Texto branco para contraste */
+}
+
+label {
+    font-weight: bold;
+    display: block; /* Garante que cada label ocupe sua própria linha */
+    margin-top: 10px;
+    color: #E6E6E6; /* Um cinza claro para o texto da label */
+}
